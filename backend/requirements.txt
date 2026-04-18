@@ -4,3 +4,4 @@ redis
 django-cors-headers
 gunicorn
 python-dotenv
+whitenoise
