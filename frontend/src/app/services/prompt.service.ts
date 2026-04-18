@@ -7,7 +7,7 @@ import { Prompt } from '../models/prompt.model';
 export class PromptService {
   private apiUrl = 'http://127.0.0.1:8000';
 
-  constructor(private http: HttpClient) {}
+  constructor(private http: HttpClient) { }
 
   getPrompts(): Observable<Prompt[]> {
     return this.http.get<Prompt[]>(`${this.apiUrl}/prompts/`);
