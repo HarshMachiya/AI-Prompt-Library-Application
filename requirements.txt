@@ -1,0 +1,7 @@
+django
+psycopg2-binary
+redis
+django-cors-headers
+gunicorn
+python-dotenv
+whitenoise
