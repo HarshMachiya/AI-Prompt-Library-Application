@@ -46,4 +46,4 @@ The application uses the latest Angular standalone component feature, which simp
 The `docker-compose.yml` file uses a custom `start.sh` script for the backend to ensure PostgreSQL is ready before applying migrations and starting the server. This prevents race conditions during the initial boot.
 
 ## 📸 Screenshots
-*(Add screenshots here after running locally)*
+
