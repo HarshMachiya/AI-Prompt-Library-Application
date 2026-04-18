@@ -1,0 +1,20 @@
+<nav class="navbar glass-card">
+  <div class="nav-container">
+    <a routerLink="/prompts" class="logo">
+      <span class="logo-icon">✨</span>
+      <span class="logo-text">PromptVault</span>
+    </a>
+    <div class="nav-links">
+      <a routerLink="/prompts" routerLinkActive="active">My Gallery</a>
+      <a routerLink="/add" class="btn btn-primary btn-sm">Create</a>
+    </div>
+  </div>
+</nav>
+
+<main>
+  <router-outlet></router-outlet>
+</main>
+
+<footer class="glass-card">
+  <p>&copy; 2024 AI Prompt Library. Built with Django & Angular.</p>
+</footer>
